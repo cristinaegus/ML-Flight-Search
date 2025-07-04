@@ -142,7 +142,28 @@ Voy a agregar las nuevas celdas al final del notebook:
 Se realizaron cambios.
 
 Se realizaron cambios.
+=== FUNCIÓN DE PREDICCIÓN INTERACTIVA ===
+--- EJEMPLOS DE PREDICCIÓN ---
 
+🛫 Predicción para vuelo desde JFK:
+   📅 Fecha: Mes 12, Día 15, Hora 18:00
+   📏 Distancia: 2500 millas
+   🎯 Predicción LDA: Alto_Retraso
+   📊 Probabilidades LDA:
+      Alto_Retraso: 0.716 (71.6%)
+      Bajo_Retraso: 0.054 (5.4%)
+      Medio_Retraso: 0.230 (23.0%)
+
+============================================================
+🎉 RESUMEN FINAL DEL ANÁLISIS DISCRIMINANTE
+============================================================
+📊 Modelos entrenados: LDA y QDA
+🎯 Precisión LDA: 0.693 (69.3%)
+🎯 Precisión QDA: 0.690 (69.0%)
+🏆 Mejor modelo: LDA
+📈 Características utilizadas: Aeropuerto origen, mes, hora, día, distancia
+🔍 Categorías predichas: Alto, Medio, Bajo retraso
+✅ El modelo puede predecir qué aerolíneas tendrán más retrasos según el origen del vuelo
 
 # 📊 RESUMEN EJECUTIVO DEL PROYECTO
 
